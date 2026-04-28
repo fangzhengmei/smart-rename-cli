@@ -1,0 +1,34 @@
+{
+  "name": "smart-rename-cli",
+  "version": "1.0.0",
+  "description": "一个强大的文件批量重命名 CLI 工具",
+  "main": "src/index.js",
+  "bin": {
+    "smart-rename": "src/index.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "rename",
+    "cli",
+    "batch",
+    "regex",
+    "exif",
+    "commander"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "exif-parser": "^0.1.12"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "tmp": "^0.2.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
